@@ -31,8 +31,6 @@
 ?>
 <?php
 require_once 'vendor/autoload.php';
-$clientId = '881544477948-rqbfo69hdjp6h6boat9a840hlc265l66.apps.googleusercontent.com';
-$clientSecret = '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';
 $redirectURL = 'http://localhost/authentication-webapp/index.php';
 
 $client = new Google_Client();
