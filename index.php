@@ -31,7 +31,6 @@
 ?>
 <?php
 require_once 'vendor/autoload.php';
-$redirectURL = 'http://localhost/authentication-webapp/index.php';
 
 $client = new Google_Client();
 $client->setClientId($clientId);
